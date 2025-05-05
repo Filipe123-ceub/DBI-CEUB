@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjDB-IMC" id="29C7E3F3-A85F-AA59-D5D3-5187CC08C844" version="3.5">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-04-07 22:33:30 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>29C7E3F3-A85F-AA59-D5D3-5187CC08C844</designId>
+</OSDM_Design>
