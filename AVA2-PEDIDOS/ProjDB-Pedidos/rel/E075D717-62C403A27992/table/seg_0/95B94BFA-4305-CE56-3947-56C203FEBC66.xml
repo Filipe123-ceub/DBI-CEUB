@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95B94BFA-4305-CE56-3947-56C203FEBC66" name="vendedor">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-06 00:38:31 UTC</createdTime>
+<generatorID>69A00F1D-0443-0CFE-7890-08430F9DEDBE</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matricula" id="4944D8B3-FC3E-C4A2-A026-0D76FD98204A">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-06 00:38:31 UTC</createdTime>
+<generatorID>A69BC01A-B3BE-4E5C-C8CD-017D5012CEAC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="327F46FC-95AC-9729-1C12-76B4066045AF">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-06 00:38:31 UTC</createdTime>
+<generatorID>EE633687-126F-9394-0295-29231FEC5189</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empresa" id="981E3C80-6751-F4C0-0F7C-723127F9F18A">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-06 00:38:31 UTC</createdTime>
+<generatorID>A010609D-C9D4-5CFC-8063-B6AD05415E21</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FEA4DF8-3A1F-9A19-9E5A-C8E7E6CC5759" name="pedido_PKv1">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-06 00:38:31 UTC</createdTime>
+<generatorID>B8D6D188-5118-0004-E348-3C8B7B77973C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4944D8B3-FC3E-C4A2-A026-0D76FD98204A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

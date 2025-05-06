@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vendedorPedido" directorySegmentName="seg_0" id="A9B2C9CB-79F1-60DF-1FEF-6777A850FF86">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-06 00:05:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="E075D717-9518-A96F-DA1F-62C403A27992" value="true"/>
+</engineerTo>
+<sourcePk>B8D6D188-5118-0004-E348-3C8B7B77973C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69A00F1D-0443-0CFE-7890-08430F9DEDBE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>19971842-A0A7-F7BF-EDC1-C0D3C0E96F06</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
