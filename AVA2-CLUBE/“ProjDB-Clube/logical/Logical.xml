@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FE4914C2-22D9-6DBE-29EB-DA9DFC5C92FD" mainViewID="34D0DE05-08CD-88DD-8BAF-1AD952B6FA3F">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-19 22:48:49 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
