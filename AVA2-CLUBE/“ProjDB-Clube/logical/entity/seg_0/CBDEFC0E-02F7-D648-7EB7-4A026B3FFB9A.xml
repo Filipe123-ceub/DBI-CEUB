@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBDEFC0E-02F7-D648-7EB7-4A026B3FFB9A" name="enderecoTitularDependente">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-19 23:20:50 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D8124620-D6F6-1343-0BAC-BC27122B9AB1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cep" id="A7603114-7168-7474-F591-0E432ECAEADB">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-20 00:14:43 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D8124620-D6F6-1343-0BAC-BC27122B9AB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoEndereco" id="FF014FC0-9241-C8C2-B12F-5B090757D5BA">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-20 00:15:16 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D8124620-D6F6-1343-0BAC-BC27122B9AB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="30348784-F075-A984-6C1F-D1E8FF379573">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-20 00:19:18 UTC</createdTime>
+<generatorID>7FD70120-02B2-FBA9-FC09-A50ABE059ACB</generatorID>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D8124620-D6F6-1343-0BAC-BC27122B9AB1" value="true"/>
+</engineerTo>
+<referedAttribute>724E0563-3FB9-5C1D-386F-761185AD2E11</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="AE9CB75A-79CE-3E48-7BD0-E45FA9A87BB6">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-20 00:19:27 UTC</createdTime>
+<generatorID>A04D2731-4BBC-8C13-8DD2-9AFF0B2ACE1A</generatorID>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D8124620-D6F6-1343-0BAC-BC27122B9AB1" value="true"/>
+</engineerTo>
+<referedAttribute>FB89B0CB-9203-3CE5-310B-544099D97DB5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="92AD9370-7696-F442-7BA7-CE4EE9B2F865">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-20 00:23:19 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D8124620-D6F6-1343-0BAC-BC27122B9AB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B896E1E-EBDD-9DE5-3E94-867A96124CE1" name="enderecoTitularDependente PK">
+<createdBy>filipe.fialho</createdBy>
+<createdTime>2025-05-20 00:15:12 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D8124620-D6F6-1343-0BAC-BC27122B9AB1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7603114-7168-7474-F591-0E432ECAEADB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
